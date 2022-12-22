@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+ 
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+:root {
+  --primary-color: #002f34;
+  --secondary-color: #237c6b;
+  --btn-color: gold;
+}
+
+.formContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: var(--primary-color);
+}
+
+.formCard {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  padding: 2rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  background-color: white;
+}
+
+.formCard:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.heading {
+  text-align: center;
+  font-size: 30px;
+  color: var(--primary-color);
+  font-weight: bold;
+}
+
+.userForm {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userLabel {
+  color: grey;
+  text-align: left;
+  width: 360px;
+  font-size: 17px;
+}
+
+.userInput {
+  width: 360px;
+  height: 40px;
+  margin-bottom: 11px;
+  padding-left: 10px;
+  border: 2px solid var(--secondary-color);
+}
+
+.errorPara {
+  margin: 0;
+  margin-bottom: 11px;
+  color: #ff0000;
+  text-align: left;
+  width: 360px;
+  font-size: 1rem; 
+}
